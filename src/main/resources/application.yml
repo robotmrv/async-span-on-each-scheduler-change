@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: "async-span"
+  sleuth:
+    enabled: true
+    sampler:
+      probability: 1.0
+  zipkin:
+    enabled: true
